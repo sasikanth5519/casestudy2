@@ -1,0 +1,44 @@
+ApiResponse{
+code	[...]
+type	[...]
+message	[...]
+}
+
+Category{
+id	[...]
+name	[...]
+}
+
+Pet{
+id	[...]
+category	Category{...}
+name*	[...]
+photoUrls*	[...]
+tags	[...]
+status	[...]
+}
+
+Tag{
+id	[...]
+name	[...]
+}
+
+Order{
+id	[...]
+petId	[...]
+quantity	[...]
+shipDate	[...]
+status	[...]
+complete	[...]
+}
+
+User{
+id	[...]
+username	[...]
+firstName	[...]
+lastName	[...]
+email	[...]
+password	[...]
+phone	[...]
+userStatus	[...]
+}
